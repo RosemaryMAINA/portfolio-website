@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f9f8; /* soft light background */
+  color: #333;
+}
+
+/* Header */
+.main-header {
+  background-color: #005a4f; /* new teal color */
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-title {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+/* Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #00463d; /* darker version of #005a4f */
+  padding: 10px 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  border-bottom: 2px solid #3bd6bd; /* lighter accent of #005a4f */
+}
+
+/* Main Content */
+.intro-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.welcome-text {
+  font-size: 2em;
+  color: #005a4f;
+}
+
+.intro-paragraph {
+  max-width: 700px;
+  margin: 20px auto;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+.quote-line {
+  font-style: italic;
+  color: #00796b; /* slightly brighter than main teal */
+  margin: 20px 0;
+}
+
+/* Call to Action Button */
+.cta-button {
+  display: inline-block;
+  background-color: #005a4f;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #00463d;
+}
+
+/* Footer */
+footer {
+  background-color: #005a4f;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+
